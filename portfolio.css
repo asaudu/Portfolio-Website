@@ -1,0 +1,72 @@
+header {
+    background-color: #e78057;
+    height: 100px;
+    text-align: center;
+  }
+  
+  nav {
+      
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  body {
+    background-color: #fffff5;
+  }
+  
+  .left {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: #5a5f37;
+    display: flex;
+    float: left;
+    width: 50%;
+    height: 600px;
+  }
+  
+  .right {
+    background-color: #edd4b9;
+    display: flex;
+    float: left;
+    width: 50%;
+    height: 600px;
+  }
+  
+  .profilePic {
+    width: 32%;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .papayaPic {
+    object-fit: contain;
+  }
+  
+  #aboutMeDiv {
+    width: 100%;
+    background:#e78057;
+  }
+  
+  #experienceDiv {
+    width: 50%
+    display: flex;  
+    float: left;
+    background: #edd4b9;
+  }
+  
+  #contactDiv {
+    width: 50%
+    display: flex;
+    float: left;  
+    background: #5a5f37;  
+  }
+  
+  @media (min-width: 1081px) {
+    .profilePic{
+        width: 70%;
+      }
+  }
